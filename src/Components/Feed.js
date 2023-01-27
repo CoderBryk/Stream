@@ -1,8 +1,11 @@
-import React from 'react'
+import { useState, useEffect } from 'react'
+import { Box, Typography, Stack } from '@mui/material'
 
 function Feed() {
   return (
-    <div>Feed</div>
+    <Stack sx={{flexDirection: {sx: 'column', md: 'row'}}}>
+    
+    </Stack>
   )
 }
 

@@ -1,11 +1,7 @@
 import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import { Box } from '@mui/material'
-import Navbar from './Components/Navbar'
-import Feed from './Components/Feed'
-import Videoplay from './Components/Videoplay'
-import Channel from './Components/Channel'
-import Search from './Components/Search'
+import { Feed, Videoplay, Channel, Search, Navbar } from './Components'
 
 function App() {
   return (
